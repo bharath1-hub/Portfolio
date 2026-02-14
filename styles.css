@@ -77,10 +77,13 @@ button{
         color:whitesmoke
     }
     #profile{
-   display:flex;
-   margin:10px;
-   width:150px;
-   border-radius:50%;
-   justify-content: flex-end;
+  #profile {
+   width: 150px;
+   border-radius: 50%;
+   margin: 10px auto;
+   display: block;
+}
+
     }
+
 }
