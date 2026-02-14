@@ -1,0 +1,77 @@
+:root{
+    --solid-border: 2px dotted black;
+    
+}
+html{
+    font-size:16px;
+    font-family: Arial, sans-serif;
+    background-color: #deb887;
+}
+header{
+    font-size:75px;
+}
+#profile{
+   display:flex;
+   margin:10px;
+   width:150px;
+   border-radius:50%;
+   justify-content: flex-end;
+   
+
+}
+.nav-bar {
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    font-size:22px;
+    gap:30px;
+    margin:0px;
+    padding:0px;
+     background-color: aqua;
+    padding: 15px;
+    position: sticky;
+
+}
+.container{
+    text-align: center;
+    background-image:linear-gradient(gold 15%, orange);
+}
+.my-project{
+  display:flex;
+  text-align:left;
+  gap:10px;
+  border: 2px solid black;
+  padding:12px;
+}
+.my-learnings{
+    color: #e0ffff;
+}
+.my-learnings a{
+    color:#f3f3f3;
+}
+.nav-bar a:hover{
+    background-color: rgb(220, 188, 28);
+}
+.nav-bar a:visited{
+   background-color: blue;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media  (min-width:765px) and  (max-width:899px){
+    body{
+   background-color:blue;
+   margin:0px;
+   color:white;
+    }
+    .container{
+        background: linear-gradient(#aeff00 5%, #00d9ff 75%);
+    }
+    .nav-bar a:visited{
+        background-color: green;
+        color:whitesmoke
+    }
+}
